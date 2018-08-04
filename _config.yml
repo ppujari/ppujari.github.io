@@ -1,0 +1,43 @@
+# Site settings
+title:  Pradeep Pujari ...
+description: 'Machine Learning Engineer @WalmartLabs . '
+url: 'https://sarojinipanda.github.io'
+baseurl: ''
+google_analytics: 'UA-83225772-1'
+disqus_shortname: 'sarojinipanda.github.io'
+
+author:
+  name: 'Pradeep Pujari'
+  email: ppujari@gmail.com
+  twitter_username: ppujari_t_cook
+  facebook_username: ppujari.f
+  github_username:  ppujaricook
+  linkedin_username:  ppujari.l
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
