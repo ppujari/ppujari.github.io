@@ -1,10 +1,10 @@
 # Site settings
 title:  Pradeep Pujari ...
 description: 'Machine Learning Engineer @WalmartLabs . '
-url: 'https://sarojinipanda.github.io'
+url: 'https://ppujari.github.io'
 baseurl: ''
 google_analytics: 'UA-83225772-1'
-disqus_shortname: 'sarojinipanda.github.io'
+disqus_shortname: 'ppujari.github.io'
 
 author:
   name: 'Pradeep Pujari'
