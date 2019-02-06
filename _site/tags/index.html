@@ -73,11 +73,26 @@
         <p class="panel-cover__description">Machine Learning Engineer @WalmartLabs</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
-      <nav class="cover-navigation cover-navigation--primary">
+     
             <ul class="navigation">
+              var index = 1;
+var tempImg = new Image();
+tempImg.onload = function(){
+   appendImage();
+}
+var tryLoadImage = function( index ){
+   tempImg.src = 'images/' + index + '.jpg';
+}
+var appendImage = function(){
+   var img = document.createElement('img');
+   img.src = tempImg.src;
+   document.body.appendChild( img )
+   tryLoadImage( index++ )
+}
+tryLoadImage( index );
               <li class="navigation__item"><a href="~/images">Image</a></li>
             </ul>
-          </nav>
+          
         <div class="navigation-wrapper">
 
           <nav class="cover-navigation cover-navigation--primary">
