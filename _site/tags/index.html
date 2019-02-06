@@ -75,21 +75,7 @@
 
      
             <ul class="navigation">
-              var index = 1;
-var tempImg = new Image();
-tempImg.onload = function(){
-   appendImage();
-}
-var tryLoadImage = function( index ){
-   tempImg.src = 'images/' + index + '.jpg';
-}
-var appendImage = function(){
-   var img = document.createElement('img');
-   img.src = tempImg.src;
-   document.body.appendChild( img )
-   tryLoadImage( index++ )
-}
-tryLoadImage( index );
+              
               <li class="navigation__item"><a href="~/images">Image</a></li>
             </ul>
           
