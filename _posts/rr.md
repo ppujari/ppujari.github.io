@@ -1,2 +1,4 @@
 
-![../images/in_berkley.jpg](attachment:in_berkley.jpg)
+<p align="center">
+<img src="image/in_berkley.jpg" width="600px" >
+</p>
