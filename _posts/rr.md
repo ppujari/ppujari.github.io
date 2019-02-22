@@ -1,4 +1,4 @@
 
 <p align="center">
-<img src="assets/tsne.png" width="600px" >
+<img src="images/in_berkley.jpg" width="600px" >
 </p>
